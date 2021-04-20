@@ -1,0 +1,1 @@
+Parse the html tag and generate the js function declarative source code.
