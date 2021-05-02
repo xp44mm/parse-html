@@ -1,7 +1,7 @@
+import { button, div, textarea, textNode } from 'hyperscript-rxjs'
 import { literal, literalArray } from './literal'
 import { whitespace } from './whitespace'
 
-import { div, textarea, button, textNode, } from 'hyperscript-rxjs'
 export function parseHTML() {
     let inp = textarea({
         placeholder: "粘贴或输入HTML",
@@ -37,6 +37,7 @@ export function parseHTML() {
 
 
 }
+
 export function parseHtmlByDom() {
     let inp = document.createElement('textarea')
     inp.setAttribute('placeholder', '粘贴或输入HTML')

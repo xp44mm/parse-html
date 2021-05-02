@@ -11,7 +11,6 @@ export function literal(node) {
         let props = getProps(node)
 
         //3. childNodes
-
         return composeDom(tag, props, node.childNodes)
     }
 }
